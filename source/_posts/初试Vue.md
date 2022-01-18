@@ -1,5 +1,5 @@
 ---
-title: 初试Vue
+title: 初试 Vue
 date: 2017-06-01 22:39:08
 categories: 编程
 tags: [Vue,ElementUI]

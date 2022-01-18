@@ -1,5 +1,5 @@
 ---
-title: 初试Locust
+title: 初试 Locust
 date: 2018-04-08 20:47:23
 categories: 编程
 tags: [Python,Locust,性能测试]

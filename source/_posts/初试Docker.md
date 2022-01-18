@@ -81,7 +81,7 @@ Docker 客户端和守护进程之间通过 socket 或者 RESTful API 进行通�
 
   ```
 
-![gitlab](https://github.com/Scofieldsu/Image_hosting/blob/master/blog/gitlab.png?raw=true)
+![gitlab](https://github.com/Scofieldsu/blog-source/blob/main/source/images/gitlab.png?raw=true)
 
 ### docker运行rancher
 
@@ -89,9 +89,9 @@ Docker 客户端和守护进程之间通过 socket 或者 RESTful API 进行通�
 
 - 命令： docker run -d --restart=unless-stopped -p 8989:80 -p 443:443 rancher/rancher:stable
 
-![rancher-1](https://github.com/Scofieldsu/Image_hosting/blob/master/blog/rancher-1.png?raw=true)
-![rancher-2](https://github.com/Scofieldsu/Image_hosting/blob/master/blog/rancher-2.png?raw=true)
-![rancher-3](https://github.com/Scofieldsu/Image_hosting/blob/master/blog/rancher-3.png?raw=true)
+![rancher-1](https://github.com/Scofieldsu/blog-source/blob/main/source/images/rancher-1.png?raw=true)
+![rancher-2](https://github.com/Scofieldsu/blog-source/blob/main/source/images/rancher-2.png?raw=true)
+![rancher-3](https://github.com/Scofieldsu/blog-source/blob/main/source/images/rancher-3.png?raw=true)
 
 ---
 

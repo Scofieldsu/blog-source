@@ -1,5 +1,5 @@
 ---
-title: 初试Jenkins
+title: 初试 Jenkins
 date: 2017-06-08 20:47:23
 categories: 编程
 tags: [Jenkins]
@@ -48,7 +48,7 @@ jenkins可以很好的支持各种语言（比如：java, c#, php等）的项目
     /var/lib/jenkins/secrets/initialAdminPassword
 
 
-![jenkins](https://github.com/Scofieldsu/Image_hosting/blob/master/blog/jenkins.png?raw=true)
+![jenkins](https://github.com/Scofieldsu/blog-source/blob/main/source/images/jenkins.png?raw=true)
 
 ---
 
