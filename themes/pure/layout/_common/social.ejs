@@ -1,0 +1,10 @@
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="100" src="https://music.163.com/outchain/player?type=2&id=1439741086&auto=1&height=66"></iframe>
+
+<% if(theme.profile.social.links) { %>
+	<% var tooltipClass = theme.profile.social.link_tooltip === false ? '' : 'data-toggle=tooltip data-placement=top'; %>
+    <ul class="social-links">
+    	<% for(var i in theme.profile.social.links) { %>
+        <li><a href="<%- url_for(theme.profile.social.links[i]) %>" target="_blank" title="<%= titlecase(i) %>" <%= tooltipClass %>><i class="icon icon-<%= i %>"></i></a></li>
+        <% } %>
+    </ul>
+<% } %>
