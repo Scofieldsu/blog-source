@@ -1,7 +1,7 @@
 ---
 title: 设备MAC地址随机化与WiFi探针
 date: 2017-12-15 20:47:23
-categories: 编程
+categories: 探索
 tags: [伪MAC,探针]
 ---
 
@@ -12,7 +12,7 @@ tags: [伪MAC,探针]
 ## 1. MAC地址共48位（6个字节），以十六进制表示。前24位由IEEE决定如何分配，后24位由实际生产该网络设备的厂商自行指定。
 
 
-![mac](https://github.com/Scofieldsu/blog-source/tree/main/source/images/MACadress.png)
+![mac](https://github.com/Scofieldsu/blog-source/blob/main/source/images/MACadress.png?raw=true)
 
 图片来源  wikipedia链接：https://en.wikipedia.org/wiki/MAC_address
 
@@ -127,20 +127,20 @@ CSNA网络分析论坛有一种说法是 通过流量判断：伪造的IP或MAC�
 
    下图是帧格式：
 
-   ![BeaconFrame](https://github.com/Scofieldsu/blog-source/tree/main/source/images/beaconframe.png)
+   ![BeaconFrame](https://github.com/Scofieldsu/blog-source/blob/main/source/images/beaconframe.png?raw=true)
 
 
 - *Probe Request*：探测请求帧，WiFi设备将会利用Probe Request帧，扫描所在区域内目前有哪些802.11网络。
 
     下图是帧格式：
-    ![probe](https://github.com/Scofieldsu/blog-source/tree/main/source/images/probe.png)
+    ![probe](https://github.com/Scofieldsu/blog-source/blob/main/source/images/probe.png?raw=true)
 
 
 **2.数据帧**：
 
 - *Data*：数据帧，当接入点要送出一个帧给WiFi设备但是不必确认之前所传送的信息时，就会使用标准的数据帧。标准的数据帧并不会征询对方是否有数据待传，因此不允许接收端传送任何数据。无竞争周期所使用的纯数据（Data-Only)帧和无竞争周期所使用的数据帧完全相同。
 
-![wifi-run](https://github.com/Scofieldsu/blog-source/tree/main/source/images/wifi-run.png)
+![wifi-run](https://github.com/Scofieldsu/blog-source/blob/main/source/images/wifi-run.png?raw=true)
 
 
 就像图中描述的一样，我们的WiFi探针其实就是一个AP，它定时的向自己的四周广播发送Beacon帧，用来通知附近的WiFi设备，AP是存在的，（好比它一直在向周围喊着，我在这里，大家快来连接我啊）。
