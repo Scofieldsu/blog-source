@@ -1,7 +1,7 @@
 title: win7和ubuntu双系统的一些设置
 date: 2015-07-15 01:21:09
 categories: 编程
-tags: [Windows,Ubuntu,双系统]
+tags: [Windows,Ubuntu]
 
 ---
 ###  修改默认启动的系统

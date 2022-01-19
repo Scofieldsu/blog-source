@@ -1,5 +1,5 @@
 ---
-title: 常用与有趣的工具推荐
+title: 装机App备忘
 date: 2018-09-08 21:13:45
 categories: 编程
 tags: [工具,Python]
